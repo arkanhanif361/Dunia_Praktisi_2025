@@ -13,3 +13,7 @@ st.header("Laporan Bulanan")
 st.subheader("📈 Monthly Expenses")
 st.caption("Made with ❤️ using Streamlit")
 st.write("Hello, *World!* :sunglasses:")
+
+title = st.text_input("Movie title", "Boboiboy")
+st.write("The current movie title is", title)
+
